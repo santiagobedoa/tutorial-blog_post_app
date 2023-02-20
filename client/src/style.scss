@@ -2,6 +2,7 @@ $light-orange: #fcb78b;
 $dark-orange: #de8c5c;
 $orange: #ff914d;
 $brown-orange: #c58c68;
+$light-gray: #818c89;
 
 .app {
   display: flex;
@@ -26,7 +27,7 @@ $brown-orange: #c58c68;
 
       h1 {
         font-size: 30px;
-        color: $dark-orange;
+        color: $light-gray;
         margin-bottom: 20px;
       }
 
