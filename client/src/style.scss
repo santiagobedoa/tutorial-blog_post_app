@@ -2,7 +2,7 @@ $light-orange: #fcb78b;
 $dark-orange: #de8c5c;
 $orange: #ff914d;
 $brown-orange: #c58c68;
-$light-gray: #818c89;
+$light-gray: #707070;
 
 .app {
   display: flex;
@@ -86,6 +86,10 @@ $light-gray: #818c89;
           display: flex;
           align-items: center;
           gap: 10px;
+
+          & > *:not(:last-child):hover {
+            border-bottom: 1px solid $light-orange;
+          }
         }
 
         h6 {
@@ -119,16 +123,25 @@ $light-gray: #818c89;
 
     // FOOTER
     footer {
-      margin-top: 100px;
-      padding: 20px;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-between;
-      font-weight: 300;
+      text-align: center;
+      padding: 20px;
+      margin-top: 200px;
+      border-top: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
 
-      img {
-        width: 75px;
-      }
+    footer span {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #999;
+    }
+
+    footer img {
+      max-width: 75px;
+      margin-bottom: 10px;
     }
 
     // HOME
