@@ -1,6 +1,6 @@
 # Blog Post APP
 
-![plot](images/home.png)
+![plot](README_images/home.png)
 
 <p>Welcome! If you're interested in learning how to build a blog post application, I invite you to check out my tutorial on Medium called "<a href="https://medium.com/@santiagobedoa/building-a-full-stack-blog-application-a-step-by-step-tutorial-ad9067a8ec90">Building a Full-Stack Blog Application: A Step-by-Step Tutorial</a>". In this repository, you can find the source code for the tutorial. This project is a great way to learn more about building a full-stack application, and I'd love to have you join me on this journey!</p>
 
